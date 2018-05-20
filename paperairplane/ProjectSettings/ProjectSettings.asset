@@ -224,7 +224,7 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: "C:/Users/\u30E8\u30CF\u30CD\u30B9/Documents/paper/.git/paperairplane/androidtest.keystore"
+  AndroidKeystoreName: "C:/Users/\u30E8\u30CF\u30CD\u30B9/Documents/paper/paperairplane/androidtest.keystore"
   AndroidKeyaliasName: yohanes
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
