@@ -216,7 +216,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 552570677}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 33, y: 0, z: 0}
+  m_LocalPosition: {x: 63, y: -80, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1631349897}
@@ -224,8 +224,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 33, y: 0}
-  m_SizeDelta: {x: 547, y: 206.8}
+  m_AnchoredPosition: {x: 63, y: -80}
+  m_SizeDelta: {x: 799.57, y: 500.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &552570679
 MonoBehaviour:
@@ -248,18 +248,18 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 300
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5236\u4F5C\u3000cheapChariot\n\u30D7\u30ED\u30B0\u30E9\u30E0\u3001\u305D\u306E\u4ED6\u96D1\u7528\u3000\u30E8\u30CF\u30CD\u30B9\n\u30A4\u30E9\u30B9\u30C8\u3000\u307A\u3093\u592A\n\n\nBGM\n\u9B54\u738B\u9B42\u3000\u69D8\u3000https://maoudamashii.jokersounds.com/"
+  m_Text: "\u5236\u4F5C\u3000cheapChariot\n\u30D7\u30ED\u30B0\u30E9\u30E0\u3001\u305D\u306E\u4ED6\u96D1\u7528\u3000\u30E8\u30CF\u30CD\u30B9\n\u30A4\u30E9\u30B9\u30C8\u3000\u307A\u3093\u592A\n\n\nBGM\n\u9B54\u738B\u9B42\u3000\u69D8\n\u3000https://maoudamashii.jokersounds.com/"
 --- !u!222 &552570680
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -395,8 +395,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1266056298}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.6, y: 0.5, z: 0}
-  m_LocalScale: {x: 3.10145, y: 2.9067929, z: 1}
+  m_LocalPosition: {x: 2.1, y: -0, z: 0}
+  m_LocalScale: {x: 2.9848287, y: 2.6991978, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -446,7 +446,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -465,7 +465,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 170862364}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -483,8 +483,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1631349893}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 343, y: 193, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 186.5, y: 116.5, z: 0}
+  m_LocalScale: {x: 0.46625, y: 0.46625, z: 0.46625}
   m_Children:
   - {fileID: 552570678}
   - {fileID: 1689574899}
@@ -506,12 +506,12 @@ Prefab:
     - target: {fileID: 224934640019260478, guid: 5b363b01e0c1f2d48b165cce71496f66,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 224.25
+      value: 264
       objectReference: {fileID: 0}
     - target: {fileID: 224934640019260478, guid: 5b363b01e0c1f2d48b165cce71496f66,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -134.4
+      value: 195.54
       objectReference: {fileID: 0}
     - target: {fileID: 224934640019260478, guid: 5b363b01e0c1f2d48b165cce71496f66,
         type: 2}
@@ -546,12 +546,12 @@ Prefab:
     - target: {fileID: 224934640019260478, guid: 5b363b01e0c1f2d48b165cce71496f66,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 224.25
+      value: 264
       objectReference: {fileID: 0}
     - target: {fileID: 224934640019260478, guid: 5b363b01e0c1f2d48b165cce71496f66,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -134.4
+      value: 195.54
       objectReference: {fileID: 0}
     - target: {fileID: 224934640019260478, guid: 5b363b01e0c1f2d48b165cce71496f66,
         type: 2}
@@ -592,6 +592,11 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114042951794666634, guid: 5b363b01e0c1f2d48b165cce71496f66,
+        type: 2}
+      propertyPath: m_RaycastTarget
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5b363b01e0c1f2d48b165cce71496f66, type: 2}

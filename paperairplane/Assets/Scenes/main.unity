@@ -167,7 +167,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 8682303}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 250.3, y: 241.49998, z: 0}
+  m_LocalPosition: {x: 209.46555, y: 252.76596, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1469158192}
@@ -176,8 +176,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -136.7, y: -0.50002}
-  m_SizeDelta: {x: 131.79999, y: 51.300003}
+  m_AnchoredPosition: {x: -190.32, y: 2.899994}
+  m_SizeDelta: {x: 196.3, y: 80.6}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &8682305
 MonoBehaviour:
@@ -773,7 +773,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 718520632}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -195, y: 171.65, z: 0}
+  m_LocalPosition: {x: -207.78555, y: 179.51596, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1385072731}
@@ -805,11 +805,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 50
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1566,7 +1566,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1584,8 +1584,8 @@ Canvas:
   m_GameObject: {fileID: 1385072727}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 1283425427}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1594,7 +1594,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_TargetDisplay: 0
 --- !u!224 &1385072731
 RectTransform:
@@ -1603,8 +1603,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1385072727}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 387, y: 242, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 0.034760535, y: 0.034760535, z: 0.034760535}
   m_Children:
   - {fileID: 718520633}
   - {fileID: 1365950822}
@@ -1717,7 +1717,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1469158191}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -65.899994, y: -25.650002, z: 0}
+  m_LocalPosition: {x: -98.15, y: -40.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8682304}
@@ -1902,12 +1902,12 @@ Prefab:
     - target: {fileID: 224934640019260478, guid: 5b363b01e0c1f2d48b165cce71496f66,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 279.9
+      value: 307.79254
       objectReference: {fileID: 0}
     - target: {fileID: 224934640019260478, guid: 5b363b01e0c1f2d48b165cce71496f66,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 168.79996
+      value: 212.46594
       objectReference: {fileID: 0}
     - target: {fileID: 224934640019260478, guid: 5b363b01e0c1f2d48b165cce71496f66,
         type: 2}
@@ -1942,22 +1942,22 @@ Prefab:
     - target: {fileID: 224934640019260478, guid: 5b363b01e0c1f2d48b165cce71496f66,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -64.100006
+      value: -91.993
       objectReference: {fileID: 0}
     - target: {fileID: 224934640019260478, guid: 5b363b01e0c1f2d48b165cce71496f66,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -24.700043
+      value: -37.4
       objectReference: {fileID: 0}
     - target: {fileID: 224934640019260478, guid: 5b363b01e0c1f2d48b165cce71496f66,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 136.70001
+      value: 192.49
       objectReference: {fileID: 0}
     - target: {fileID: 224934640019260478, guid: 5b363b01e0c1f2d48b165cce71496f66,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 55.199997
+      value: 80.6
       objectReference: {fileID: 0}
     - target: {fileID: 224934640019260478, guid: 5b363b01e0c1f2d48b165cce71496f66,
         type: 2}
